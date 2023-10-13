@@ -1,0 +1,27 @@
+@media only screen and (max-width: 100rem) {
+  .nav {
+    width: 90rem;
+  }
+
+  .nav__lists {
+    /* top: 0; */
+    position: fixed;
+    font-size: 2rem;
+    top: 7rem;
+    left: 0;
+    background-color: #ddd06a;
+    width: 100%;
+    padding: 1rem 0 2.5rem;
+    transform: translateX(-100%);
+  }
+
+  .nav__unordered {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .nav__burger {
+    display: flex;
+  }
+}
