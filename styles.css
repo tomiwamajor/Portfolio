@@ -110,20 +110,21 @@ nav {
 
 /* skills */
 .developer__skills {
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
 }
 
 .skills {
   text-align: center;
   margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #993300;
 }
 
 .technologies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .tech__icons {
@@ -131,4 +132,57 @@ nav {
   width: 5.4rem;
   color: #808080;
   margin: auto;
+}
+
+/* projects */
+.developer__projects {
+}
+
+.projects {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #993300;
+  font-weight: 500;
+}
+
+.project__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3rem;
+  column-gap: 7rem;
+  align-items: center;
+}
+
+.project {
+  transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(2rem);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.project__discover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project__discover p {
+  font-size: 1.4rem;
+}
+
+.project__discover a {
+  text-decoration: none;
+}
+
+.link {
+  height: 3rem;
+  width: 3rem;
+  color: #993300;
 }
