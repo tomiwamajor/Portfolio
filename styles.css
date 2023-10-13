@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
+  transition: all 0.3s ease-in-out;
 }
 
 /* page navigation */
@@ -33,7 +34,6 @@ nav {
 }
 
 .nav__lists {
-  font-size: 1.6rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -47,9 +47,15 @@ nav {
 }
 
 .nav__list a {
+  font-size: 1.6rem;
+  font-weight: 400;
   text-decoration: none;
   color: #993300;
   transition: all 0.3s ease-in-out;
+}
+
+.nav__list a:hover {
+  color: #fff;
 }
 
 .nav__burger {
@@ -249,4 +255,33 @@ nav {
   width: 3.4rem;
   height: 3.4rem;
   color: #3d0c02;
+  transition: all 0.3s ease-in-out;
+}
+
+.me ion-icon:hover {
+  color: #fff;
+}
+
+.adetomiwa {
+  text-align: center;
+  color: #3d0c02;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.adetomiwa a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: #3d0c02;
+  transition: all 0.3s ease-in-out;
+}
+
+.adetomiwa a:hover {
+  background-color: #ddd06a;
+  color: #993300;
 }

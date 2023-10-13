@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <!-- <link rel="stylesheet" href="query.css" /> -->
+    <link rel="stylesheet" href="query.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,16 +23,16 @@
         <div class="nav__lists">
           <ul class="nav__unordered">
             <li class="nav__list">
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li class="nav__list">
-              <a href="">About</a>
+              <a href="#about">About</a>
             </li>
             <li class="nav__list">
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li class="nav__list">
-              <a href="">Contact me</a>
+              <a href="#contactMe">Contact me</a>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@
     <main class="developer">
       <!-- me section -->
       <div class="developer__me">
-        <p class="developer__description">
+        <p id="home" class="developer__description">
           <span class="hi">Hi</span>, I am
           <span class="name">Adelekun Adetomiwa</span> a Software Engineer[Web
           Developer] and an IT Support Specialist with a 3+ years working field
@@ -61,7 +61,7 @@
       </div>
 
       <!-- skills section -->
-      <div class="developer__skills">
+      <div id="about" class="developer__skills">
         <p class="skills">
           As a Frontend Web Developer these are the technologies I use to build
           up web projects
@@ -81,7 +81,7 @@
       </div>
 
       <!-- projects section -->
-      <div class="developer__projects">
+      <div id="projects" class="developer__projects">
         <p class="projects">Here are some of my recent projects</p>
 
         <div class="project__box">
@@ -164,13 +164,13 @@
       <!-- question section -->
       <div class="developer__question">
         <p class="question">Do you have a work for me?</p>
-        <p class="contact__me"><a href="">Contact Me</a></p>
+        <p class="contact__me"><a href="#contactMe">Contact</a></p>
       </div>
     </main>
 
     <!-- footer content -->
-    <footer class="contact">
-      <a class="logo" href="">Tomiwamajor</a>
+    <footer id="contactMe" class="contact">
+      <a class="logo" href="#home">Tomiwamajor</a>
       <div class="contacts">
         <a class="me" href="https://github.com/tomiwamajor">
           <ion-icon name="logo-github"></ion-icon>
@@ -187,6 +187,11 @@
           <ion-icon name="logo-whatsapp"></ion-icon>
         </a>
       </div>
+
+      <p class="adetomiwa">
+        Developed by
+        <a href="https://github.com/tomiwamajor">Adetomiwa</a>
+      </p>
     </footer>
 
     <script

@@ -1,10 +1,21 @@
-@media only screen and (max-width: 100rem) {
+@media only screen and (max-width: 1235px) {
+  .nav {
+    width: 100rem;
+    max-width: 90%;
+  }
+
+  .developer {
+    width: 95rem;
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 729px) {
   .nav {
     width: 90rem;
   }
 
   .nav__lists {
-    /* top: 0; */
     position: fixed;
     font-size: 2rem;
     top: 7rem;
@@ -23,5 +34,41 @@
 
   .nav__burger {
     display: flex;
+  }
+
+  .developer__description {
+    text-align: center;
+  }
+
+  .project__box {
+    grid-template-columns: 1fr;
+  }
+
+  .project__discover p {
+    font-size: 1.8rem;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .developer__description {
+    text-align: left;
+  }
+
+  .skills {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .contacts {
+    flex-direction: column;
   }
 }
