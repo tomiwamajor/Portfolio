@@ -202,7 +202,7 @@ nav {
   padding-bottom: 2rem;
 }
 
-.contact a {
+.contact__me a {
   font-size: 1.6rem;
   color: #fff;
   font-weight: 400;
@@ -213,7 +213,40 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
-.contact a:hover {
+.contact__me a:hover {
   color: #993300;
   background-color: #ddd06a;
+}
+
+/* footer */
+.contact {
+  background-color: #ddd06a;
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+  margin: 0 auto;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #3d0c02;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.me {
+  text-decoration: none;
+}
+
+.me ion-icon {
+  width: 3.4rem;
+  height: 3.4rem;
+  color: #3d0c02;
 }
