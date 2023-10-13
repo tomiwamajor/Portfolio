@@ -38,6 +38,7 @@
 
   .developer__description {
     text-align: left;
+    line-height: 4rem;
   }
 
   .project__box {
