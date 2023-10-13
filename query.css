@@ -37,7 +37,7 @@
   }
 
   .developer__description {
-    text-align: center;
+    text-align: left;
   }
 
   .project__box {
@@ -59,10 +59,6 @@
 }
 
 @media only screen and (max-width: 336px) {
-  .developer__description {
-    text-align: left;
-  }
-
   .skills {
     text-align: left;
     font-size: 1.5rem;
