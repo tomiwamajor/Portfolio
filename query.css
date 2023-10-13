@@ -43,6 +43,7 @@
 
   .project__box {
     grid-template-columns: 1fr;
+    gap: 9rem;
   }
 
   .project__discover p {
