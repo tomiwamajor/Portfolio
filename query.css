@@ -75,7 +75,7 @@
 
 @media only screen and (max-width: 336px) {
   .skills {
-    text-align: left;
+    /* text-align: left; */
     font-size: 1.5rem;
   }
 
