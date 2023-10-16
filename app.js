@@ -1,7 +1,7 @@
 const navigation = document.querySelector(".nav__lists");
 const burger = document.querySelector(".nav__burger");
 const links = document.querySelectorAll("a:link");
-const body = document.querySelector("body");
+const developer = document.querySelector(".developer");
 
 burger.addEventListener("click", () => {
   navigation.classList.toggle("nav--open");
@@ -9,6 +9,11 @@ burger.addEventListener("click", () => {
 });
 
 navigation.addEventListener("click", () => {
+  navigation.classList.remove("nav--open");
+  burger.classList.remove("nav__burger--open");
+});
+
+developer.addEventListener("click", () => {
   navigation.classList.remove("nav--open");
   burger.classList.remove("nav__burger--open");
 });

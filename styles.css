@@ -13,6 +13,8 @@ html {
 
 /* page navigation */
 nav {
+  position: static;
+
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #ddd06a;
