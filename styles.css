@@ -111,6 +111,17 @@ nav {
   margin-bottom: 4rem;
 }
 
+.devme,
+.devprojects,
+.devskill {
+  border-bottom: 0.1rem solid #993300;
+}
+.devprojects,
+.devskill,
+.developer__question {
+  padding-top: 2rem;
+}
+
 .developer__description {
   font-size: 2rem;
 }
