@@ -34,7 +34,7 @@
   }
 
   .nav__lists {
-    position: fixed;
+    position: absolute;
     font-size: 2rem;
     top: 7rem;
     left: 0;
