@@ -1,6 +1,7 @@
 const navigation = document.querySelector(".nav__lists");
 const burger = document.querySelector(".nav__burger");
 const links = document.querySelectorAll("a:link");
+const body = document.querySelector("body");
 
 burger.addEventListener("click", () => {
   navigation.classList.toggle("nav--open");
