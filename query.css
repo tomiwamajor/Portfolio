@@ -19,11 +19,11 @@
 
   .contacts {
     flex-direction: column;
+    gap: 3rem;
   }
 
   .contact {
     flex-direction: column;
-    gap: 2rem;
     text-align: center;
   }
 }
