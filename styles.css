@@ -287,29 +287,3 @@ footer {
 .me ion-icon:hover {
   color: #fff;
 }
-
-.adetomiwa {
-  text-align: center;
-  color: #3d0c02;
-  font-size: 1.6rem;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.adetomiwa a {
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  padding: 1rem 2rem;
-  border-radius: 1rem;
-  background-color: #3d0c02;
-  transition: all 0.3s ease-in-out;
-}
-
-.adetomiwa a:hover {
-  background-color: #ddd06a;
-  color: #993300;
-}
