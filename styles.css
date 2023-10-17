@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
   width: 120rem;
   padding: 2rem 0;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .nav__logo {
