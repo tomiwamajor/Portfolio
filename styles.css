@@ -114,7 +114,7 @@ nav {
 .devme,
 .devprojects,
 .devskill {
-  border-bottom: 0.1rem solid #993300;
+  border-bottom: 0.01rem solid #ddd06a;
 }
 .devprojects,
 .devskill,
