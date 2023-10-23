@@ -115,7 +115,7 @@ header {
 .devme,
 .devprojects,
 .devskill {
-  border-bottom: 0.01rem solid #f1f3f5;
+  border-bottom: 0.01rem solid #010b13;
 }
 .devprojects,
 .devskill,
@@ -145,7 +145,7 @@ header {
   margin-bottom: 1rem;
   font-size: 2.4rem;
   font-weight: 700;
-  color: #993300;
+  color: #010b13;
 }
 
 .technologies {
@@ -170,7 +170,7 @@ header {
   text-align: center;
   font-size: 2.4rem;
   margin-bottom: 2rem;
-  color: #993300;
+  color: #010b13;
   font-weight: 700;
 }
 
@@ -225,7 +225,7 @@ header {
 
 .question {
   font-size: 2.4rem;
-  color: #993300;
+  color: #010b13;
   font-weight: 600;
   padding-bottom: 2rem;
 }
@@ -235,7 +235,7 @@ header {
   color: #fff;
   font-weight: 400;
   padding: 1rem 5rem;
-  background-color: #3d0c02;
+  background-color: #010b13;
   text-decoration: none;
   border-radius: 1rem;
   transition: all 0.3s ease-in-out;
@@ -243,7 +243,7 @@ header {
 
 .contact__me a:hover {
   color: #993300;
-  background-color: #f1f3f5;
+  background-color: #353839;
 }
 
 /* footer */
