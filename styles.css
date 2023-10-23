@@ -131,8 +131,8 @@ header {
 .hi,
 .name {
   font-size: 2.2rem;
-  font-weight: 400;
-  color: #993300;
+  font-weight: 700;
+  color: #353839;
 }
 
 /* skills */
@@ -208,7 +208,7 @@ header {
 
 .project__discover a {
   text-decoration: none;
-  color: #3d0c02;
+  color: #353839;
 }
 
 .link {
