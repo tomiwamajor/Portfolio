@@ -255,7 +255,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 7rem;
+  padding: 2rem;
   margin: 0 auto;
   width: 120rem;
 }

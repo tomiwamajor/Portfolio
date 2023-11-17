@@ -18,8 +18,8 @@
   }
 
   .contacts {
-    flex-direction: column;
     gap: 3rem;
+    padding-top: 3rem;
   }
 
   .contact {
