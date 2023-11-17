@@ -128,6 +128,11 @@ header {
   font-weight: 400;
 }
 
+#home {
+  padding-top: 20rem;
+  height: 60vh;
+}
+
 .hi,
 .name {
   font-size: 2.2rem;
