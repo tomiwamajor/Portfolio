@@ -40,7 +40,6 @@
     left: 0;
     background-color: #010b13;
     width: 100%;
-    padding-top: 10rem;
     padding: 1rem 0 2.5rem;
     transform: translateX(-100%);
     height: 100vh;
@@ -49,6 +48,7 @@
   .nav__unordered {
     flex-direction: column;
     align-items: center;
+    padding-top: 10rem;
     row-gap: 20px;
   }
 
