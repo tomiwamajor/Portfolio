@@ -49,7 +49,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10rem;
-    row-gap: 20px;
+    row-gap: 3rem;
   }
 
   .nav__burger {
